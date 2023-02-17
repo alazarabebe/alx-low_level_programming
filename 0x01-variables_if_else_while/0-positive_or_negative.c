@@ -4,7 +4,6 @@
 
 /**
  * main - This is a program that tell you the number is + or -
- * @n: random number
  * Return: zero
  */
 int main(void)
