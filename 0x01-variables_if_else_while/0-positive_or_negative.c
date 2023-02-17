@@ -2,7 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * my_function - This is a program that tell you the number is + or -
+ * @parameterx: n is a random number
+ */
 int main(void)
 {
 	int n;
