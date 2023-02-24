@@ -2,7 +2,8 @@
 
 /**
  * mul - check if its upper case
- * @c: input char
+ * @a: input int
+ * @b: input int
  * Return: integer
  */
 
