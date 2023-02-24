@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - your just testing
+ * main - tests function that prints if inter is positive or negative
  * Return: 0
  */
 int main(void)
