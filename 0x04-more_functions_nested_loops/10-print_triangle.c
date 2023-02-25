@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_square - check if its upper case
+ * print_triangle - check if its upper case
  * @size : number of lines
  * Return: void
  */
 
-void print_square(int size)
+void print_triangle(int size)
 {
 	int i;
 	int j;
