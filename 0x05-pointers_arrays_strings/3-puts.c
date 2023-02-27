@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _strlen  - check if its upper case
- * @s: word
+ * _puts  - check if its upper case
+ * @str: word
  * Return: void
  */
 
