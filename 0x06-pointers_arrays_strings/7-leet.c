@@ -25,7 +25,7 @@ char *leet(char *s)
 			if (s[i] == jj[j] || s[i] == k[j])
 				s[i] = l[j];
 		}
-		i++;	
+		i++;
 	}
 	return (s);
 }
