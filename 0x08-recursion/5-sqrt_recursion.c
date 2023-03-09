@@ -1,12 +1,12 @@
 #include "main.h"
 
+int _s(int n, int i);
+
 /**
  * _sqrt_recursion - puts
  * @n: number
  * Return: int
  */
-
-int _s(int n, int i);
 
 int _sqrt_recursion(int n)
 {
@@ -17,6 +17,7 @@ int _sqrt_recursion(int n)
  * _s - calculet squer
  * @n: number
  * @i: number
+ *
  * Return: int
  */
 
