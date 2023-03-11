@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
 /**
  * main - args
@@ -18,7 +19,7 @@ int main(int argc, char *argv[])
 	{
 		for (c = 1; c < argc; c++)
 		{
-			if (*argv[c] < 48 || *argv[c] > 57)
+			if (isdigit(*argv[c]) == 0)
 			{
 				printf("Error\n");
 				return (1);
