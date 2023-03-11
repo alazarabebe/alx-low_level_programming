@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 		{
 			e = argv[c];
 
-			for(k = 0; k < strlen(e); k++)
+			for (k = 0; k < strlen(e); k++)
 			{
 			if (atoi(argv[c]) < 48 || atoi(argv[c]) > 57)
 			{
