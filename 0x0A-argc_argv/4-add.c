@@ -23,7 +23,6 @@ int main(int argc, char *argv[])
 				printf("Error\n");
 				return (1);
 			}
-			
 			b += atoi(argv[c]);
 		}
 		printf("%d\n", b);
