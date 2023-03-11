@@ -11,16 +11,22 @@
 
 int main(int argc, char *argv[])
 {
-	int  b, c;
+	int  b, k, c;
+	char *e;
 
 	if (argc > 1)
 	{
 		for (c = 1; c < argc; c++)
 		{
+			e = argv[c];
+
+			for(k = 0; k < strlen(e); k++)
+			{
 			if (atoi(argv[c]) < 48 || atoi(argv[c]) > 57)
 			{
 				printf("Error\n");
 				return (1);
+			}
 			}
 			b += atoi(argv[c]);
 		}
