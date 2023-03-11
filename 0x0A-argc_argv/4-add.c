@@ -17,15 +17,12 @@ int main(int argc, char *argv[])
 	{
 		for (c = 1; c < argc; c++)
 		{
-			if (atoi(argv[c]) != 0)
-			{
-				b += atoi(argv[c]);
-			}
-			else if (atoi(argv[c]) == 0)
+			if (atoi(argv[c]) < 48 || atoi(argv[c]) > 57)
 			{
 				printf("Error\n");
 				return (1);
 			}
+			b += atoi(argv[c]);
 		}
 		printf("%d\n", b);
 	}
