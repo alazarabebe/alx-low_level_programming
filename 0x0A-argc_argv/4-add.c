@@ -13,16 +13,19 @@
 
 int main(int argc, char *argv[])
 {
-	int  c, b = 0;
+	int  c, a, b = 0;
 
 	if (argc > 1)
 	{
 		for (c = 1; c < argc; c++)
 		{
-			if (isdigit(*argv[c]) == 0)
+			for (a = 0; a < strlen(argv[i]); a++)
 			{
-				printf("Error\n");
-				return (1);
+				if (argv[a] < 48 || argv[a] > 57)
+				{
+					printf("Error\n");
+					return (1);
+				}
 			}
 			b += atoi(argv[c]);
 		}
