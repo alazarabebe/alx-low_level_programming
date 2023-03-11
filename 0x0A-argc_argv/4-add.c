@@ -11,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	int  b, k, c;
+	int  c, k, b = 0;
 	char *e;
 
 	if (argc > 1)
