@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * fre_grid - array
+ * free_grid - array
  * @grid: int
  * @height: int
  * Return: pointer
