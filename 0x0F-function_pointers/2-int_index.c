@@ -24,10 +24,10 @@ int int_index(int *array, int size, int (*cmp)(int))
 		{
 			break;
 		}
-		else
-			return (-1);
 		i++;
 	}
+	if (v != 1)
+		return (-1);
 	}
 	return (i);
 }
