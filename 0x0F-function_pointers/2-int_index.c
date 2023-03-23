@@ -11,18 +11,16 @@
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	unsigned int i = 0;
+	int v, i = 0;
 
-	if (size <= 0)
-		return (-1):
-	if (array != NULL && cmp != NULL)
-	{
 	while (i < size)
 	{
-		(*action)(array[i]);
+		v = (*cmp)(array[i]);
+		if (v == 1)
+		{
+			break;
+		}
 		i++;
 	}
-	}
-	else
-		return (-1);
+	return (i);
 }
