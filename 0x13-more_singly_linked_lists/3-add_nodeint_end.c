@@ -10,25 +10,27 @@
  * Return: number of nodes
  */
 
-listint_t *add_nodeint_end(listint_t **head, const int n);
+listint_t *add_nodeint_end(listint_t **head, const int n)
 {
-	listint_t *new;
-	list *temp = *head;
+	listint_t *m;
+	listint_t *temp = *head;
 
-	new = malloc(sizeof(listint_t));
+	m = malloc(sizeof(listint_t));
 
-	if (!new)
+	if (!m)
 		return (NULL);
-	new->n = n;
-	new->next = NULL;
+	m->n = n;
+	m->next = NULL;
+
 	if (*head == NULL)
 	{
-	*head = new;
-	return (new);
+	*head = m;
+	return (m);
 	}
+
 	while (temp->next)
 		temp = temp->next;
-	temp->next = new;
+	temp->next = m;
 
-	return (new);
+	return (m);
 }
